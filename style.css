@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pre-header {
+  height: 60px;
+  padding-top: 10px;
+}
+
+.pre-header .naslov {
+  font-weight: bold;
+  font-size: 26px;
+  width: 95px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.pre-header .secondary-menu {
+  list-style: none;
+}
+
+.pre-header .secondary-menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.pre-header .secondary-menu li a {
+  font-size: 14px;
+  list-style: none;
+  color: #505f98;
+  text-align: center;
+  display: flex;
+}
+.pre-header .button-buy a {
+  background-color: #111b47;
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+  width: 160px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-header .button-buy a:hover {
+  color: #111b47;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.pre-header .button-ui a {
+  background-color: #111b47;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.hero-section {
+  font-size: 18px;
+  padding-top: 301px;
+  padding-bottom: 388px;
+  width: 1911.32px;
+  height: 1161px;
+  background-image: url("./images/hero.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center right;
+}
+.light-section .container {
+  font-size: 16px;
+}
+.image-wrapper {
+  float: left;
+  width: 480px;
+  height: 315.85px;
+  max-width: 100%;
+  height: auto;
+  margin-right: 191px;
+  margin-left: 155px;
+  padding-top: 122.44px;
+}
+
+.power {
+  float: right;
+  font-size: 16px;
+  width: 445px;
+  height: 166px;
+  margin-right: 169px;
+  padding-top: 172px;
+  margin-left: 155px;
+}
