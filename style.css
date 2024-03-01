@@ -7,12 +7,15 @@
   height: 60px;
   padding-top: 10px;
 }
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .pre-header .naslov {
   font-weight: bold;
   font-size: 26px;
-  width: 95px;
-  height: 38px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -39,11 +42,8 @@
   padding: 10px;
   color: #fff;
   font-size: 12px;
-  width: 160px;
-  height: 26px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .pre-header .button-buy a:hover {
@@ -63,33 +63,44 @@
   font-size: 18px;
   padding-top: 301px;
   padding-bottom: 388px;
-  width: 1911.32px;
-  height: 1161px;
   background-image: url("./images/hero.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center right;
 }
+
 .light-section .container {
   font-size: 16px;
 }
 .image-wrapper {
-  float: left;
-  width: 480px;
-  height: 315.85px;
-  max-width: 100%;
+  display: flex;
   height: auto;
-  margin-right: 191px;
-  margin-left: 155px;
-  padding-top: 122.44px;
 }
 
 .power {
-  float: right;
+  display: flex;
   font-size: 16px;
-  width: 445px;
-  height: 166px;
-  margin-right: 169px;
-  padding-top: 172px;
-  margin-left: 155px;
+  font-family: Roboto;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-title {
+  display: flex;
+  gap: 30px;
+}
+
+.button-ui {
+  display: flex;
+  gap: 30px;
+}
+
+.button1 {
+  color: #fff;
+  background-color: #111b47;
+  text-decoration: none;
+  padding: 6px 24px;
 }
