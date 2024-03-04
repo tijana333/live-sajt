@@ -1,11 +1,11 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
-
 .pre-header {
   height: 60px;
   padding-top: 10px;
+  justify-content: space-between;
 }
 .row {
   display: flex;
@@ -13,24 +13,21 @@
   justify-content: space-between;
 }
 
-.pre-header .naslov {
+.pre-header .title {
   font-weight: bold;
   font-size: 26px;
   display: flex;
   justify-content: center;
-  align-content: center;
-  text-align: center;
 }
-
-.pre-header .secondary-menu {
+.secondary-menu {
   list-style: none;
+  gap: 30px;
 }
-
-.pre-header .secondary-menu li {
+.pre-header .secondary-menu li a {
   display: inline-block;
   margin-left: 15px;
 }
-.pre-header .secondary-menu li a {
+.pre-header .secondary-menu {
   font-size: 14px;
   list-style: none;
   color: #505f98;
@@ -45,29 +42,60 @@
   display: flex;
   justify-content: center;
 }
-
 .pre-header .button-buy a:hover {
   color: #111b47;
   background-color: transparent;
   text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
-
-.pre-header .button-ui a {
+.button-ui a {
   background-color: #111b47;
   padding: 10px;
   color: #fff;
   font-size: 16px;
 }
-
+.hero-wrapper {
+  max-width: 540px;
+  margin-top: 240px;
+}
 .hero-section {
-  font-size: 18px;
-  padding-top: 301px;
-  padding-bottom: 388px;
   background-image: url("./images/hero.png");
   background-repeat: no-repeat;
   background-position: center right;
+  height: 100vh;
 }
 
+.button-ui {
+  display: flex;
+  gap: 30px;
+}
+.button1 {
+  color: #fff;
+  background-color: #111b47;
+  text-decoration: none;
+  padding: 6px 24px;
+}
+.button2 {
+  border: 2px solid #091133;
+  color: #091133;
+  padding: 6px 24px;
+}
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title-one {
+  font-size: 50px;
+}
+
+.paragraph-one {
+  font-size: 18px;
+  color: #505f98;
+}
 .light-section .container {
   font-size: 16px;
 }
@@ -75,31 +103,16 @@
   display: flex;
   height: auto;
 }
-
 .power {
   display: flex;
   font-size: 16px;
 }
-
 .row1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .container-title {
   display: flex;
   gap: 30px;
-}
-
-.button-ui {
-  display: flex;
-  gap: 30px;
-}
-
-.button1 {
-  color: #fff;
-  background-color: #111b47;
-  text-decoration: none;
-  padding: 6px 24px;
 }
