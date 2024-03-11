@@ -152,9 +152,42 @@ a {
 }
 /* Mobile version */
 
+.row {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: none;
+  }
+}
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  color: #37447e;
+}
+
+.mobile-row > img {
+  width: 16px;
+  height: 16px;
+}
+
+.mobile-row {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-row {
+    display: flex;
+  }
+}
+
 @media only screen and (max-width: 600) {
   .container {
     max-width: 70%;
+    justify-content: center;
     align-items: flex-end;
     padding: 0 10%;
     font-size: 1.8;
