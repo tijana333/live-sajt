@@ -164,9 +164,8 @@ a {
 .logo {
   font-weight: bold;
   font-size: 26px;
-  display: flex;
-  justify-content: center;
   color: #37447e;
+  display: flex;
 }
 
 .mobile-row > img {
@@ -176,6 +175,8 @@ a {
 
 .mobile-row {
   display: none;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
