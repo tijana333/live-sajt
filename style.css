@@ -54,6 +54,10 @@ a {
   text-align: center;
   display: flex;
 }
+
+.hero-innercontainer {
+  color: #505f98;
+}
 .button-buy {
   text-align: center;
   background-color: #111b47;
@@ -104,7 +108,7 @@ a {
 .col-md-6 {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  max-width: 60%;
   margin-top: 241px;
 }
 
@@ -184,7 +188,7 @@ a {
 }
 
 .title-two {
-  font-size: 32px;
+  font-size: 36px;
   color: #091133;
 }
 
@@ -250,21 +254,23 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 169px;
-  gap: 155px;
+  gap: 169px;
 }
 
 .power {
-  display: block;
+  display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 172px;
+  margin-right: 169px;
+  min-width: 30%;
 }
 .image-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 123px;
+  margin-top: 172px;
+  margin-left: 191px;
+  min-width: 40%;
 }
 
 .power-paragraph {
