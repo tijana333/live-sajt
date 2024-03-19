@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  line-height: 26px;
 }
 
 p {
@@ -30,7 +31,7 @@ a {
   justify-content: space-between;
 }
 
-.hero-outcontainer {
+.hero-outer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,7 +60,7 @@ a {
   display: flex;
 }
 
-.hero-innercontainer {
+.hero-inner-container {
   color: #505f98;
 }
 .button-buy {
@@ -88,7 +89,7 @@ a {
   justify-content: space-between;
 }
 .hero-section {
-  background-image: url("./images/hero.png");
+  background-image: url("./assets/images/hero-section/hero.png");
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -120,6 +121,7 @@ a {
   font-size: 50px;
   color: #091133;
   margin-bottom: 20px;
+  line-height: 66px;
 }
 
 .paragraph-one {
@@ -153,7 +155,7 @@ a {
     font-size: 30px;
   }
 }
-
+/* end of mobile version */
 .logo {
   font-weight: bold;
   font-size: 26px;
@@ -361,7 +363,6 @@ a {
 
 .footer-row {
   background-color: #e7ecff;
-  padding: 0 165px;
 }
 .footer-container {
   display: flex;
@@ -438,4 +439,8 @@ a {
     margin-right: 20px;
     margin-bottom: 20px;
   }
+}
+
+.title-two .power-title .pricing-title {
+  line-height: 48px;
 }
